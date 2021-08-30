@@ -17,8 +17,8 @@ namespace TSPGreedy2
             return 0;
         }
 
-        public static int[,] ary = new int[10, 10];
-        public static int[] completed = new int[10];
+        public static int[,] ary = new int[20, 20];
+        public static int[] completed = new int[20];
         public static int n;
         public static int cost = 0;
         public static void takeInput()
